@@ -1,14 +1,14 @@
-import React from 'react';
+import React, { FC } from 'react';
 import Layout from '../components/Layout';
 
-export const About = (): JSX.Element => {
+export const About: FC = () => {
   return (
     <Layout
       customMeta={{
-        title: 'About - Hunter Chang',
+        title: 'Studio - MonoPlus',
       }}
     >
-      <h1>About Page</h1>
+      <h1>Studio Page</h1>
       <p>Welcome to the about page</p>
     </Layout>
   );
